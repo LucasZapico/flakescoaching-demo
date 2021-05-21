@@ -1,0 +1,51 @@
+.form-wrapper {
+  background-image: url("/rocket-league-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+}
+
+.form {
+  margin: auto;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-dark;
+  color: $color-light;
+  font-family: $base-family;
+  box-shadow: $color-two 3px 12px 24px;
+  label {
+    color: $color-grey-2;
+  }
+
+  .input,
+  .textarea {
+    background-color: transparent;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    margin-top: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid $color-grey-7;
+    margin-bottom: 2rem;
+
+    &:hover {
+      background-color: $color-grey-8;
+    }
+    &:focus {
+      background-color: $color-grey-8;
+      outline: none;
+    }
+    &:active {
+      background-color: $color-grey-8;
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+/***
+**
+** MEDIA QUERIES & BREAKPOINTS
+** 
+**
+***/
+
+/***
+**
+** BreakPoints 
+**
+**
+***/
+
+$media-sm: 750px;
+$media-md: 960px;
+$media-lg: 1200px;
+$media-xl: 1400px;
+
+/***
+**l
+** COLOR
+**
+**
+***/
+
+$color-one: #48d0f0;
+$color-two: #b33377;
+$color-three: #a13e1e;
+$color-four: #beadad;
+$color-five: #beadad;
+$color-six: #beadad;
+
+// $color-h: #ebe1e174;
+
+$color-light: #ffffff;
+$color-grey-1: #f4f4f5;
+$color-grey-2: #ebebec;
+$color-grey-3: #d7d7d7;
+$color-grey-4: #acacaf;
+$color-grey-5: #7f7f84;
+$color-grey-6: #525254;
+$color-grey-7: #38383a;
+$color-grey-8: #1d1d1e;
+$color-dark: #0a0a0a;
+
+/***
+** Typography Colors 
+***/
+
+$pri-type-color: $color-grey-8;
+$sec-type-color: $color-grey-7;
+
+/***
+** Background Colors 
+***/
+
+// Light theme
+$bg-pri: $color-one;
+$bg-sec: $color-grey-8;
+
+/***
+**
+** TYPOGRAPHY
+**
+**
+***/
+// Display
+// headers
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap");
+// base
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+// script
+
+$type-base-size: 18px;
+
+// body variables
+$base-family: "Inter", sans-serif;
+$base-line-height: 1.4;
+$base-weight: 500;
+
+// header variables
+$header-family: "Roboto", sans-serif;
+$header-base-size: $type-base-size;
+$header-line-height: $base-line-height;
+$header-weight: 900;
+$type-alt-weight: 400;
+$type-scaler: 1.4;
+
+$display-family: $header-family;
+$type-width: 600px;

@@ -1,0 +1,129 @@
+.hero {
+  background-image: url("/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  animation: effect ease-in-out infinite 8s alternate;
+}
+
+.header {
+  background: transparent;
+}
+
+.gradient-one {
+  background: $color-one;
+  background: linear-gradient(
+    90deg,
+    $color-one 32%,
+    rgba(255, 104, 226, 1) 100%
+  );
+}
+
+.text-gradient-three {
+  background: -webkit-linear-gradient(
+    45deg,
+    $color-light,
+    rgba(255, 104, 226, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-two {
+  background: -webkit-linear-gradient(
+    45deg,
+    hsla(240, 2%, 12%, 1) 32%,
+    rgba(255, 104, 226, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-one {
+  background: -webkit-linear-gradient(
+    $color-one 32%,
+    rgba(255, 104, 226, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.divider {
+  height: 0.3rem;
+  width: 60%;
+}
+
+.bg-one {
+  background-color: $color-dark;
+  color: $color-grey-2;
+  .link {
+    color: $color-grey-2;
+    &:hover {
+      color: $color-grey-3;
+    }
+    &:focus {
+      color: $color-grey-3;
+    }
+    &:active {
+      color: $color-grey-3;
+    }
+  }
+}
+
+.aurora-one {
+  background-color: #fff;
+  background-image: radial-gradient(at top left, #48d0f0, transparent),
+    radial-gradient(at top right, #b33377, transparent),
+    radial-gradient(at bottom left, #b33377, transparent);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.aurora-two {
+  background-color: #1d1d1e;
+  background-image: radial-gradient(at top left, #b33377 -50%, transparent),
+    radial-gradient(at top right, $color-dark, transparent),
+    radial-gradient(at bottom left, $color-dark, transparent);
+}
+
+.aurora-three {
+  background-color: #1d1d1e;
+  background-image: linear-gradient(to top, $color-dark 10%, transparent),
+    radial-gradient(at bottom, #1d1d1e 20%, transparent),
+    radial-gradient(at top left, #b33377 -40%, transparent),
+    radial-gradient(at top right, #48d0f0 -40%, transparent);
+
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  color: $color-grey-1;
+}
+
+.scroll-down {
+  animation: scroll ease-in-out infinite 1.6s alternate;
+  font-size: 4rem;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateY(0%);
+  }
+
+  to {
+    transform: translateY(-15%);
+  }
+}
+
+@keyframes effect {
+  from {
+    transform: scaleY(1);
+  }
+
+  to {
+    transform: scaleY(1.1);
+  }
+}
