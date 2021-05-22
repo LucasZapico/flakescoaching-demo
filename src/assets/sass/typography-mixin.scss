@@ -59,9 +59,9 @@
   font-size: $type-base-size;
 }
 
-@mixin char-readable($type-width) {
-  .measure-one {
-    max-width: $type-width;
+@mixin container($mwidth) {
+  .test {
+    max-width: $mwidth;
   }
 }
 

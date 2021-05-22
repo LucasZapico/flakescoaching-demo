@@ -76,7 +76,7 @@ pre {
     max-width: 320px;
   }
 
-  @include char-readable(520px);
+  @include container(520px);
 }
 
 // 700px and up
@@ -111,8 +111,8 @@ pre {
   code,
   strong,
   em,
-  .char-readable {
-    @include char-readable(520px);
+  .container {
+    @include container(520px);
   }
 }
 
@@ -146,8 +146,8 @@ pre {
   code,
   strong,
   em,
-  .char-readable {
-    @include char-readable(750px);
+  .container {
+    @include container(750px);
   }
 }
 
@@ -182,8 +182,8 @@ pre {
   code,
   strong,
   em,
-  .char-readable {
-    @include char-readable(750px);
+  .container {
+    @include container(750px);
   }
 }
 
@@ -206,8 +206,8 @@ pre {
   code,
   strong,
   em,
-  .char-readable {
-    @include char-readable(750px);
+  .container {
+    @include container(750px);
   }
 
   .char-80 {

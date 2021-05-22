@@ -17,9 +17,7 @@ const MethodSection = ({ data }) => (
           <GatsbyImage image={data.rocketCar.childImageSharp.gatsbyImageData} />
         </div>
         <p className="char-readable mt5">
-          Imagine a combination of IIS and J2EE. In order to assess the 3rd
-          generation blockchain’s ability to whiteboard without lessening our
-          power to benchmark. Do you have a infinitely reconfigurable scheme for
+          Tell me where you'd like to improve most and we can work towards that.
         </p>
       </div>
       <div className="w-third-ns mt6 ma4-m  card-one gradient-two pa4 relative">
@@ -30,9 +28,8 @@ const MethodSection = ({ data }) => (
           <GatsbyImage image={data.rocketCar.childImageSharp.gatsbyImageData} />
         </div>
         <p className="char-readable mt5">
-          Imagine a combination of IIS and J2EE. In order to assess the 3rd
-          generation blockchain’s ability to whiteboard without lessening our
-          power to benchmark. Do you have a infinitely reconfigurable scheme for
+          We'll define your game play goals and I'll create custom training
+          packs to assist you with your weaknesses and turn them into strengths.
         </p>
       </div>
       <div className="w-third-ns mt6 ma4-m  card-one gradient-one pa4 relative">
@@ -43,9 +40,9 @@ const MethodSection = ({ data }) => (
           <GatsbyImage image={data.rocketCar.childImageSharp.gatsbyImageData} />
         </div>
         <p className="char-readable mt5">
-          Imagine a combination of IIS and J2EE. In order to assess the 3rd
-          generation blockchain’s ability to whiteboard without lessening our
-          power to benchmark. Do you have a infinitely reconfigurable scheme for
+          Once we finish a game, I will analyse the replay and point out
+          anything I see as a major problem affecting your game, these includes
+          Rotations, Mechanics or Game Awareness.
         </p>
       </div>
       <div className="w-third-ns mt6 ma4-m  card-one gradient-two pa4 relative">
@@ -56,9 +53,8 @@ const MethodSection = ({ data }) => (
           <GatsbyImage image={data.rocketCar.childImageSharp.gatsbyImageData} />
         </div>
         <p className="char-readable mt5">
-          Imagine a combination of IIS and J2EE. In order to assess the 3rd
-          generation blockchain’s ability to whiteboard without lessening our
-          power to benchmark. Do you have a infinitely reconfigurable scheme for
+          As someone who's played at the highest level of the game, I'm aware on
+          what it took to get me there and can do the same for you.
         </p>
       </div>
     </div>
@@ -90,6 +86,7 @@ const IndexPage = ({ data }) => (
       </div>
     </div>
     <MethodSection data={data} />
+    <div></div>
   </>
 )
 

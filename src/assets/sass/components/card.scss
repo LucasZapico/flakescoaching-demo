@@ -1,6 +1,6 @@
 .card-one {
   border-radius: 10px;
-
+  cursor: pointer;
   &.gradient-one {
     box-shadow: $color-two 3px 12px 24px;
     background: hsla(240, 2%, 12%, 1) 26%;
