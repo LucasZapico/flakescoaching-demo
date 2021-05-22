@@ -36,8 +36,7 @@ a {
   width: auto;
   color: $color-grey-1;
   transition: ease-in-out 0.2s all;
-  box-shadow: $color-two 3px 12px 24px;
-  max-width: 250px;
+  max-width: 350px;
   & + svg {
     margin-left: 0.3rem;
     position: absolute;

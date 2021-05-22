@@ -8,7 +8,7 @@ import YoutubeEmbed from "../components/youtubeEmbed"
 
 const AboutPage = ({ data }) => (
   <div className="aurora-three">
-    <div className="char-readable flex flex-column">
+    <div className="char-readable center flex flex-column">
       <Seo title="About" />
       <div className="pa3 pt6 f-headline ">
         <div className="ml6-ns ">
@@ -20,20 +20,20 @@ const AboutPage = ({ data }) => (
             <GatsbyImage image={data.profile.childImageSharp.gatsbyImageData} />
           </div>
           <h4 className="h5 char-readable">
-            Hey I'm Flakes and a former rocket league Pro!
+            Hey I'm Flakes and a former Rocket League Pro!
           </h4>
           <h4 className="h5 char-readable">
             Hrant "Flakes" Yakoub (born April 12, 2000) is a Dutch/Armenian
             Rocket League player and streamer.
           </h4>
 
-          <div className=" mv5">
-            <div className="mv5">
+          <div className=" mv6">
+            <div className="mv6">
               <YoutubeEmbed embedId="aY82OeLQeaQ" />
             </div>
 
             <Link to="/contact" className="btn cta-alt ">
-              Schedule a session
+              Schedule a coaching session
               <RiArrowRightUpLine />
             </Link>
           </div>

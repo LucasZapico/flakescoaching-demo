@@ -68,7 +68,7 @@ const IndexPage = ({ data }) => (
       <div className="hero"></div>
       <div className="ml6-ns mt5">
         <Link to="/contact" className="btn cta">
-          Schedule a session
+          Schedule a Coaching Session
           <RiArrowRightUpLine />
         </Link>
         <h1 className="h3 fw4 ml-7-m">

@@ -5,15 +5,15 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const ScheduleSession = ({ data }) => (
-  <div className="form-wrapper  pa3-ns pv6">
+  <div className="form-wrapper pv7  ">
     <form
-      className="form pa2 pa4-ns w-90 w-50-m w-40-l pv4"
+      className="form mt6 pa2 pa4-ns w-90 w-50-m w-40-l pv4"
       action="sign-up_submit"
       method="get"
       accept-charset="utf-8"
     >
       <h3 className=" h4 ph0 mh0 text-gradient-three mb0">
-        Schedule a Session
+        Schedule a Coaching Session
       </h3>
       <div className="divider gradient-one mb4"></div>
       <div className="mt3 flex flex-column">
@@ -43,7 +43,7 @@ const ScheduleSession = ({ data }) => (
       </div>
       <div className="mt3 flex flex-column">
         <label className="fw4" for="email-address">
-          Have anythi
+          Add a note.
         </label>
         <textarea
           placeholder="*message"

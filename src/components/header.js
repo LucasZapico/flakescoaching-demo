@@ -32,7 +32,7 @@ const Nav = ({ data }) => {
       <div className="flex justify-between">
         {ROUTES.map((r, i) => (
           <h6>
-            <Link className="link" to={r.to}>
+            <Link className="link " to={r.to}>
               {r.name}
             </Link>
           </h6>
